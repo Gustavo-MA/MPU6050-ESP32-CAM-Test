@@ -1,0 +1,49 @@
+[
+    {
+        "id": "7d009aa5eee39817",
+        "type": "ui_gauge",
+        "z": "35d7e7da5eafa854",
+        "name": "AX",
+        "group": "f9be277cacb5e87f",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "gtype": "gage",
+        "title": "AX",
+        "label": "°",
+        "format": "{{value}}",
+        "min": "-20000",
+        "max": "20000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 730,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "f9be277cacb5e87f",
+        "type": "ui_group",
+        "name": "Grupo Acelerometro-Giroscopio",
+        "tab": "e8227c7968168232",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e8227c7968168232",
+        "type": "ui_tab",
+        "name": "Acelerometro+Giroscopio",
+        "icon": "dashboard",
+        "order": 19,
+        "disabled": false,
+        "hidden": false
+    }
+]
